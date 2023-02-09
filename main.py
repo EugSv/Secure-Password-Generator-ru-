@@ -64,7 +64,7 @@ def create_password():
             allsymbs += lowercase_letters
 
         if not allsymbs:
-            print('Чё, бездарь? Захотел ошибку мне вызвать?) Ну уж нет. Иди и нормально набирай значения.')
+            print('Ну уж нет. Иди и нормально набирай значения.')
             return None
         for j in range(int(leng) - counter):
             password += allsymbs[rnd.randrange(0, len(allsymbs)- 1)]
